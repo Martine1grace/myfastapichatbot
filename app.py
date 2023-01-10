@@ -7,3 +7,9 @@ app=FastAPI()
 def index():
     return "this is the fastapi"
     
+@app.get('about')
+def about():
+    return "about Us "    
+
+
+ #this is the backend  start   
